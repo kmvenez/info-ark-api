@@ -1,7 +1,7 @@
 #!/bin/bash
 
 API="http://localhost:4741"
-URL_PATH="/examples"
+URL_PATH="/animals"
 
 curl "${API}${URL_PATH}/${ID}" \
   --include \
@@ -10,6 +10,7 @@ curl "${API}${URL_PATH}/${ID}" \
 --header "Authorization: Bearer ${TOKEN}" \
 --data '{
   "animal": {
+    "name": "'"${NAME}"'",
     "type": "'"${TYPE}"'",
     "breed": "'"${BREED}"'",
     "age": "'"${AGE}"'",

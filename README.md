@@ -1,6 +1,6 @@
 [![General Assembly Logo](https://camo.githubusercontent.com/1a91b05b8f4d44b5bbfb83abac2b0996d8e26c92/687474703a2f2f692e696d6775722e636f6d2f6b6538555354712e706e67)](https://generalassemb.ly/education/web-development-immersive)
 
-# express-api-template
+# info-ark-api
 
 A template for starting projects with `express` as an API. Includes
 authentication and common middlewares.
@@ -14,7 +14,7 @@ authentication and common middlewares.
 1. Rename the directory from express-api-template -> your-app-name.
 1. Empty [`README.md`](README.md) and fill with your own content.
 1. Move into the new project and `git init`.
-1. Replace all instances of `'express-api-template'` with your app name.
+1. Replace all instances of `'info-ark-api'` with your app name.
 1. Install dependencies with `npm install`.
 1. Ensure that you have `nodemon` installed by running `npm install -g nodemon`.
 1. Ensure the API is functioning properly by running `npm run server`.
