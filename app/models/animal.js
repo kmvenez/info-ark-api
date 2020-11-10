@@ -5,27 +5,22 @@ const mongoose = require('mongoose')
 const animalSchema = new mongoose.Schema({
   name: {
     type: String,
-    required: true,
-    unique: true
+    required: true
   },
   type: {
     type: String,
-    required: true,
-    unique: true
+    required: true
   },
   breed: {
     type: String,
-    required: true,
-    unique: true
+    required: true
   },
   age: {
     type: Number,
-    required: true,
-    unique: true
+    required: true
   },
   health: {
-    type: String,
-    required: true
+    type: String
   },
   owner: {
     type: mongoose.Schema.Types.ObjectId,
