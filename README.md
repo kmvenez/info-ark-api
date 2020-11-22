@@ -25,3 +25,12 @@ of each animal so that I can treat them effectively.
 **Images:**
 [Front end Draft 1](https://i.imgur.com/DHvFrFw.png)
 [ERD Draft 1](https://i.imgur.com/zeMD2Er.png)
+
+**Alternate Repo: API**
+[API Repo](https://github.com/kmvenez/info-ark-api)
+
+**Heroku API Link**
+[Deployed Heroku API](https://stark-falls-68902.herokuapp.com/)
+
+**Deployed Client-Side Link**
+[Deployed Client-Side](https://kmvenez.github.io/info-ark-client/)
